@@ -1,0 +1,36 @@
+{
+  "name": "fri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "node --env-file=config/.env --watch index.js",
+    "start": "node --env-file=config/.env index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "argon2": "^0.44.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "google-auth-library": "^10.6.1",
+    "joi": "^18.0.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.6",
+    "multer": "^2.1.0",
+    "nodemailer": "^8.0.1",
+    "redis": "^5.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdoo-saeed/saraha_app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abdoo-saeed/saraha_app/issues"
+  },
+  "homepage": "https://github.com/abdoo-saeed/saraha_app#readme"
+}
